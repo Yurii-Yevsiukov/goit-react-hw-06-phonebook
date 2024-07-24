@@ -1,0 +1,22 @@
+.contactListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.delBtn {
+  padding: 5px 15px;
+  font-size: 16px;
+  background-color: coral;
+  border: 1px solid darkgrey;
+  border-radius: 4px;
+}
+
+.delBtn:focus,
+.delBtn:hover {
+  background-color: red;
+  color: white;
+}
