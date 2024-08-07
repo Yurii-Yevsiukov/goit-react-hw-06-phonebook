@@ -1,15 +1,17 @@
-.filterContainer {
+.filter {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   width: 480px;
   padding: 20px;
 }
 
 .filterLabel {
-  margin-bottom: 10px;
   font-size: 20px;
 }
 
 .filterInput {
-  width: 460px;
+  width: 480px;
   padding: 8px;
   font-size: 16px;
   border: 1px solid black;
